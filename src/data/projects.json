@@ -1,0 +1,29 @@
+
+{
+    "Projets": [
+        {
+            "id": "1",
+            "image": "/src/assets/images/picochat.png",
+            "title": "Conception d’un jeu vidéo avec le moteur Pico 8",
+            "description": "J’ai mis en pratique les bases de la programmation en gérant les déplacements et collisions du joueur. Ce fut le premier projet de groupe lors de ma formation à Ada Tech School et même si mon bagage de programeuse etait bien plus fourni que celui de collègues, je dois dire que j'ai été très contente de l'équilibre qui s'est installé dans l'équipe. C'était mon premier projet en LUA et j'ai beaucoup aimé travailler sur le fonctionnement des mécaniques de jeu. La gestion des collisions du personnage plus le fait de faire en sorte que ses chatons la suive quand elle les récupère ont été un vrai challenge."
+            ,
+            "lien": "https://github.com/adatechschool/projet-collectif-pico-8-awen-eloise-romain-celia"
+
+        },
+        {
+            "id": "2",
+            "image": "/src/assets/images/portfolio.png",
+            "title": "Developpement d'un portfolio en REACT JS",
+            "description": "Comme précisé dans le footer de ce portfolio, j'ai utilisé un tuto pour me lancer dans le react js, ça m'a permis de poser les bases du language et la logique de construction. Je suis partie de cette base pour faire la page dynamique de mes projets. Même si je sais qu'en react normalement on fait des site mono page, je ne l'ai su qu'une fois le site développé. Peux-être que ça fera l'objet d'une amélioration ultérieure. Néanmoins, ça m'a permis de comprendre les liens dynamiques en REACT. Une évolution prochaine est d'utiliser une base de données au lieu de gérer les infos grâce à un fichier statique en JSON.",
+            "lien":""
+        },
+        {
+            "id": "3",
+            "image": "/src/assets/images/Minion's.png",
+            "title": "Developpement d'uneextension de navigateur Chrome",
+            "description": "Utilisation des mécanismes d’un navigateur (DOM, moteur d’exécution JS),trouver et exploiter une documentation officielle (d’un navigateur), manipulation d’une API pour faire une extension. Dans ce projet de groupe, j'ai géré l'implémentation de l'API 'FunTranslation' et la communication entre la partie Front et Back.",
+            "lien":""
+
+        }
+    ]
+}
