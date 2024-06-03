@@ -204,11 +204,11 @@ aside .section .full .percent {
 }
 
 aside .section .full .first {
-  width: 50%;
+  width: 70%;
 }
 
 aside .section .full .second {
-  width: 40%;
+  width: 60%;
 }
 
 aside .section .full .third {
@@ -237,7 +237,7 @@ aside .section .full .french {
 }
 
 aside .section .full .english {
-  width: 60%;
+  width: 80%;
 }
 
 /* footer */
@@ -315,6 +315,8 @@ article.projet-article {
   background-color: black;
   padding: 15px;
   color: #ffff;
+  padding: 70px 100px;
+  display: flex;
 
 
 }
@@ -322,8 +324,8 @@ article.projet-article {
 article.projet-article .haut {
   border-radius: 15px;
   background-color: #282828;
-  width: 90%;
-  display: flex;
+  width: 70%;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-left: auto;
@@ -340,13 +342,14 @@ article.projet-article .haut img {
 }
 
 article.projet-article .bas {
-  width: 90%;
+  width: 70%;
   background-color: #282828;
-  
+  display: block;
   margin: 15px 0;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
 }
@@ -360,11 +363,36 @@ article.projet-article .bas h3 {
   padding-top: 15px;
 }
 
-article.projet-article .bas p {
+article.projet-article .bas .description {
   width: 100%;
   display: flex;
   margin: 15px 15px;
 }
+
+article.projet-article .bas .droite {
+  width: 100%;
+  display: flex;
+  margin: 15px 15px;
+}
+
+article.projet-article .bas .droite p {
+  width: 100%;
+  display: flex;
+  margin: 15px 15px;
+}
+
+article.projet-article .bas .gauche {
+  width: 35%;
+  display: flex;
+  margin-right: 10px;
+}
+article.projet-article .bas .gauche img {
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
 
 /* media queries pour projet */
 @media (max-width: 645px) {

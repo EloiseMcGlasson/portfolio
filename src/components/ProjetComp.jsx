@@ -1,29 +1,52 @@
-
 import React from "react";
-import picochat from "../assets/images/Picochat.jpg"
 import { Projets } from "../data/projects";
-import { useLocation } from "react-router-dom";
-
+import { useLocation, Link } from "react-router-dom";
+import { GithubOutlined } from "@ant-design/icons"
+import AsideComp from "./AsideComp";
 const ProjetComp = () => {
     const { state } = useLocation();
-    
+
     return (
         <>
-            <article className="projet-article" key={Projets[state - 1].id}>
+            <article className="projet-article" key={Projets[state].id}>
                 <div className="haut">
-                    <img src={Projets[state - 1].image} alt={Projets[state - 1].title} />
+                    <img src={Projets[state].imagePres.src} alt={Projets[state].imagePres.alt} />
 
                 </div>
                 <div className="bas">
-                    <h3>{Projets[state - 1].title}</h3>
-                    <p>
-                        {Projets[state - 1].description}
-                    </p>
+                    <h3>{Projets[state].title}</h3>
+                    <p className="description">{Projets[state].description}</p>
 
-                    
+                    <div className="droite">
+
+                        {Projets[state].paragraphe.map((paragraphe) => {
+                            return (
+                                <p>
+                                    {paragraphe}
+                                </p>)
+
+                        })}
+                    </div>
+                    <div className="gauche">
+                        {Projets[state].image.map((image) => {
+
+                            return (
+
+                                <p>
+
+                                    <img src={image.src} alt={image.alt} />
+                                </p>)
+
+                        })}
+                    </div>
+
+
                 </div>
+                <div>
+                    <Link to={Projets[state].lien} target="_blank"><GithubOutlined /></Link>
+                </div>
+            <AsideComp />
             </article>
-
 
         </>
     )

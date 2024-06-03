@@ -6,7 +6,7 @@ import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
 import { experience} from "../data/data";
 import { Projets } from "../data/projects";
 import AsideComp from "./AsideComp";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -48,13 +48,13 @@ const BodyComp = () => {
                                     return (
                                     <article className="article-item" key={item.id}>
                                         <div className="left">
-                                            <img src={item.image} alt={item.title} />
+                                            <img src={item.imagePres.src} alt={item.imagePres.alt} />
 
                                         </div>
                                         <div className="right">
                                             <h3>{item.title}</h3>
                                             <p>
-                                                {item.description}
+                                                {item.description[0]}
                                             </p>
                                             
                                             <Link to={url} icon={<LinkOutlined />} state={item.id}>En savoir plus</Link>

@@ -2,27 +2,30 @@
 {
     "Projets": [
         {
-            "id": "1",
-            "image": "/src/assets/images/picochat.png",
+            "id": "0",
+            "imagePres":{"src":"/src/assets/images/picochat.png", "alt":"Différents écrans du jeu"}, 
+            "image": [{"src":"/src/assets/images/Picochat.jpg", "alt":"Écran de démarrage"}, {"src":"/src/assets/images/Picochat2.jpg", "alt":"Premier tableau"}, {"src":"/src/assets/images/Picochat3.jpg", "alt":"Deuxième tableau"}, {"src":"/src/assets/images/Picochat4.jpg", "alt":"Troisième tableau"}, {"src":"/src/assets/images/Picochat5.jpg", "alt":"Quatrième tableau"}, {"src":"/src/assets/images/picochat6.jpg", "alt":"Cinquième tableau"}, {"src":"/src/assets/images/Picochat7.jpg", "alt":"Tableau de victoire, fin de jeu"}, {"src":"/src/assets/images/Picochat8.jpg", "alt":"Tableau game over"}],
             "title": "Conception d’un jeu vidéo avec le moteur Pico 8",
-            "description": "J’ai mis en pratique les bases de la programmation en gérant les déplacements et collisions du joueur. Ce fut le premier projet de groupe lors de ma formation à Ada Tech School et même si mon bagage de programeuse etait bien plus fourni que celui de collègues, je dois dire que j'ai été très contente de l'équilibre qui s'est installé dans l'équipe. C'était mon premier projet en LUA et j'ai beaucoup aimé travailler sur le fonctionnement des mécaniques de jeu. La gestion des collisions du personnage plus le fait de faire en sorte que ses chatons la suive quand elle les récupère ont été un vrai challenge."
-            ,
+            "description": ["J’ai mis en pratique les bases de la programmation en gérant les déplacements et collisions du joueur. Ce fut le premier projet de groupe lors de ma formation à Ada Tech School et même si mon bagage de programeuse etait bien plus fourni que celui de collègues, je dois dire que j'ai été très contente de l'équilibre qui s'est installé dans l'équipe. C'était mon premier projet en LUA et j'ai beaucoup aimé travailler sur le fonctionnement des mécaniques de jeu. La gestion des collisions du personnage plus le fait de faire en sorte que ses chatons la suive quand elle les récupère ont été un vrai challenge."],
+            "paragraphe": ["blablajcnqodcoquzhmcoudmovbj ocamzoudhc ouzdcoun mozdcmozdc"],
             "lien": "https://github.com/adatechschool/projet-collectif-pico-8-awen-eloise-romain-celia"
 
         },
         {
-            "id": "2",
-            "image": "/src/assets/images/portfolio.png",
+            "id": "1",
+            "imagePres":{"src":"/src/assets/images/portfolio.png", "alt":""},
+            "image": [],
             "title": "Developpement d'un portfolio en REACT JS",
-            "description": "Comme précisé dans le footer de ce portfolio, j'ai utilisé un tuto pour me lancer dans le react js, ça m'a permis de poser les bases du language et la logique de construction. Je suis partie de cette base pour faire la page dynamique de mes projets. Même si je sais qu'en react normalement on fait des site mono page, je ne l'ai su qu'une fois le site développé. Peux-être que ça fera l'objet d'une amélioration ultérieure. Néanmoins, ça m'a permis de comprendre les liens dynamiques en REACT. Une évolution prochaine est d'utiliser une base de données au lieu de gérer les infos grâce à un fichier statique en JSON.",
-            "lien":""
+            "description": ["Comme précisé dans le footer de ce portfolio, j'ai utilisé un tuto pour me lancer dans le react js, ça m'a permis de poser les bases du language et la logique de construction. Je suis partie de cette base pour faire la page dynamique de mes projets. Même si je sais qu'en react normalement on fait des site mono page, je ne l'ai su qu'une fois le site développé. Peux-être que ça fera l'objet d'une amélioration ultérieure. Néanmoins, ça m'a permis de comprendre les liens dynamiques en REACT. Une évolution prochaine est d'utiliser une base de données au lieu de gérer les infos grâce à un fichier statique en JSON.","lorem ipsum"],
+            "lien":"https://github.com/EloiseMcGlasson/portfolio/tree/master"
         },
         {
-            "id": "3",
-            "image": "/src/assets/images/Minion's.png",
-            "title": "Developpement d'uneextension de navigateur Chrome",
-            "description": "Utilisation des mécanismes d’un navigateur (DOM, moteur d’exécution JS),trouver et exploiter une documentation officielle (d’un navigateur), manipulation d’une API pour faire une extension. Dans ce projet de groupe, j'ai géré l'implémentation de l'API 'FunTranslation' et la communication entre la partie Front et Back.",
-            "lien":""
+            "id": "2",
+            "imagePres": {"src":"/src/assets/images/Minion's.png", "alt":""},
+            "image": [{"src":"/src/assets/images/extMiniontrad.png", "alt":""}],
+            "title": "Developpement d'une extension de navigateur Chrome",
+            "description": ["Utilisation des mécanismes d’un navigateur (DOM, moteur d’exécution JS),trouver et exploiter une documentation officielle (d’un navigateur), manipulation d’une API pour faire une extension. Dans ce projet de groupe, j'ai géré l'implémentation de l'API 'FunTranslation' et la communication entre la partie Front et Back.","bla"],
+            "lien":"https://github.com/EloiseMcGlasson/projet-collectif-extension-chrome-le-trio-caroeloha"
 
         }
     ]

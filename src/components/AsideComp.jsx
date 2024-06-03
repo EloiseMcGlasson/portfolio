@@ -24,23 +24,23 @@ const AsideComp = () => {
                 <div className="skills section">
                     <h2>Compétences</h2>
                     <p>
-                        Même si mes compétences sont académiques, ma capacité d'adaptation et mon apétence à apprendre.
+                        Même si mes compétences sont académiques, ma capacité d'adaptation et mon appétence à apprendre.
                     </p>
                     <div className="skills-list">
                         <div className="skill-item">
-                            <span>PHP & Laravel</span>
+                            <span>PHP</span>
                             <div className="full">
                                 <div className="percent first"></div>
                             </div>
                         </div>
                         <div className="skill-item">
-                            <span>bla</span>
+                            <span>Javascript, REACTJS</span>
                             <div className="full">
                                 <div className="percent second"></div>
                             </div>
                         </div>
                         <div className="skill-item">
-                            <span>bla</span>
+                            <span>Python, Django</span>
                             <div className="full">
                                 <div className="percent third"></div>
                             </div>
@@ -69,13 +69,13 @@ const AsideComp = () => {
                 </div>
                 <div className="section">
                     <h2>Langues</h2>
-                    <div className="language-item">
+                    {/* <div className="language-item">
                         <h3>Français</h3>
                         <span>Locutrice native</span>
                         <div className="full">
                             <div className="percent french"></div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="language-item">
                         <h3>Anglais</h3>
                         <span>Compétence professionnelle</span>
