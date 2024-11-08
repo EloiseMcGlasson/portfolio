@@ -23,9 +23,9 @@ const ProjetComp = () => {
                 </div>
                 </div>
             </div>
-                <div className="aside">
+                
             <AsideComp />
-            </div>
+            
             </article>
 
         </>

@@ -239,6 +239,10 @@ aside .section .full .english {
   width: 80%;
 }
 
+aside .aside {
+  width: 100%;
+}
+
 /* footer */
 
 footer {
@@ -320,11 +324,6 @@ article.projet-article {
   display: flex;
   flex-direction: row;
 }
-.aside{
-  all: unset;
-  width: 100%;
-}
-
 
 article.projet-article .haut {
   border-radius: 15px;

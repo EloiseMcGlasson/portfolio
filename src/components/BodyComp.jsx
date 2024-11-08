@@ -21,8 +21,9 @@ const BodyComp = () => {
                         <section>
                             <article>
                                 <h2>À propos de moi</h2>
-                                <p>Après une carrière dans les métiers du secrétariat, je suis revenue à ma passion première, l'informatique.
-                                    Un BTS et une Licence plus tard, je cherche toujours un poste pour mettre en pratique mes compétences.</p>
+                                <p>Développeuse web en formation, je suis actuellement en reconversion professionnelle et étudie à Ada Tech School pour devenir conceptrice développeuse d’applications. Passionnée par le développement back-end et motivée par la création de solutions durables et fonctionnelles, j’ai acquis de solides bases en PHP, JavaScript, ReactJS et SQL.
+
+Au travers de projets comme la refonte en cours du site Radio Zinzine et la création d'une API REST pour cette radio, j’ai renforcé mes compétences en développement agile et mon intérêt pour la qualité et l'optimisation du code. Curieuse, persévérante et dotée d’un bon esprit d’équipe, je recherche une alternance de 12 mois pour contribuer activement aux projets d'une entreprise innovante et stimulante.</p>
                             </article>
                         </section>
                         <section className="projects">
@@ -31,7 +32,7 @@ const BodyComp = () => {
                                 <img className="featureImg" src={chat} alt="chat" />
                                 <div className="project-info">
                                     <h3>
-                                        Premier projet
+                                        Projet en cours
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ut quasi alias eligendi maiores omnis voluptates cum nulla inventore doloremque deleniti nobis temporibus, nisi ab accusantium quos doloribus, sed nam.
                                         Quam molestiae culpa sapiente, modi sunt exercitationem! Perspiciatis facilis excepturi, odio mollitia laboriosam nulla quisquam ad, explicabo eaque sit totam ipsum architecto aperiam quia sunt cupiditate suscipit assumenda autem ut.
