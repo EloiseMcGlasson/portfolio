@@ -11,14 +11,14 @@
         },
         {
             "id": "1",
-            "imagePres":{"src":"/images/portfolio.png", "alt":""},
+            "imagePres":{"src":"/images/portfolio1.png", "alt":""},
             "title": "Developpement d'un portfolio en REACT JS",
             "description": ["Comme précisé dans le footer de ce portfolio, j'ai utilisé un tuto pour me lancer dans le react js, ça m'a permis de poser les bases du language et la logique de construction. Je suis partie de cette base pour faire la page dynamique de mes projets. Même si je sais qu'en react normalement on fait des site mono page, je ne l'ai su qu'une fois le site développé. Peux-être que ça fera l'objet d'une amélioration ultérieure. Néanmoins, ça m'a permis de comprendre les liens dynamiques en REACT. Une évolution prochaine est d'utiliser une base de données au lieu de gérer les infos grâce à un fichier statique en JSON.","lorem ipsum"],
             "lien":"https://github.com/EloiseMcGlasson/portfolio/tree/master"
         },
         {
             "id": "2",
-            "imagePres": {"src":"/images/Minion's.png", "alt":""},
+            "imagePres": {"src":"/images/Minions.png", "alt":""},
             "title": "Developpement d'une extension de navigateur Chrome",
             "description": ["Utilisation des mécanismes d’un navigateur (DOM, moteur d’exécution JS),trouver et exploiter une documentation officielle (d’un navigateur), manipulation d’une API pour faire une extension. Dans ce projet de groupe, j'ai géré l'implémentation de l'API 'FunTranslation' et la communication entre la partie Front et Back.","bla"],
             "lien":"https://github.com/EloiseMcGlasson/projet-collectif-extension-chrome-le-trio-caroeloha"
