@@ -7,7 +7,6 @@
             "image": [{"src":"/src/assets/images/Picochat.jpg", "alt":"Écran de démarrage"}, {"src":"/src/assets/images/Picochat2.jpg", "alt":"Premier tableau"}, {"src":"/src/assets/images/Picochat3.jpg", "alt":"Deuxième tableau"}, {"src":"/src/assets/images/Picochat4.jpg", "alt":"Troisième tableau"}, {"src":"/src/assets/images/Picochat5.jpg", "alt":"Quatrième tableau"}, {"src":"/src/assets/images/picochat6.jpg", "alt":"Cinquième tableau"}, {"src":"/src/assets/images/Picochat7.jpg", "alt":"Tableau de victoire, fin de jeu"}, {"src":"/src/assets/images/Picochat8.jpg", "alt":"Tableau game over"}],
             "title": "Conception d’un jeu vidéo avec le moteur Pico 8",
             "description": ["J’ai mis en pratique les bases de la programmation en gérant les déplacements et collisions du joueur. Ce fut le premier projet de groupe lors de ma formation à Ada Tech School et même si mon bagage de programeuse etait bien plus fourni que celui de collègues, je dois dire que j'ai été très contente de l'équilibre qui s'est installé dans l'équipe. C'était mon premier projet en LUA et j'ai beaucoup aimé travailler sur le fonctionnement des mécaniques de jeu. La gestion des collisions du personnage plus le fait de faire en sorte que ses chatons la suive quand elle les récupère ont été un vrai challenge."],
-            "paragraphe": ["blablajcnqodcoquzhmcoudmovbj ocamzoudhc ouzdcoun mozdcmozdc"],
             "lien": "https://github.com/adatechschool/projet-collectif-pico-8-awen-eloise-romain-celia"
 
         },

@@ -8,7 +8,8 @@ const HeaderComp = () => {
     return (
         <header>
             <div className="left">
-                <img src={avatar} alt="user" />
+            {/* <Link to="/" icon={<LinkOutlined />} state={item.id}> */}
+                <img src={avatar} alt="user" />{/* </Link> */}
                 <div className="user-infos">
                     <h1>Éloïse McGlasson</h1>
                     <h2>Développeuse D'application Web</h2>

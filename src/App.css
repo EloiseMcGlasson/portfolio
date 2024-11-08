@@ -156,7 +156,6 @@ aside {
   width: 29%;
   margin-left: 10px;
   color: #ffffff;
-  text-align: justify
 }
 
 /* aside contacts */
@@ -310,21 +309,27 @@ footer {
 }
 
 /* Page PROJET */
+
+
+
 article.projet-article {
   width: 100%;
   background-color: black;
   padding: 15px;
   color: #ffff;
-  padding: 70px 100px;
   display: flex;
-
-
+  flex-direction: row;
 }
+.aside{
+  all: unset;
+  width: 100%;
+}
+
 
 article.projet-article .haut {
   border-radius: 15px;
   background-color: #282828;
-  width: 70%;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -335,14 +340,15 @@ article.projet-article .haut {
 article.projet-article .haut img {
   border-radius: 15px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+ margin: auto;
   width: 90%;
   height: 700px;
+  padding: 15px;
+  
 }
 
 article.projet-article .bas {
-  width: 70%;
+  width: 100%;
   background-color: #282828;
   display: block;
   margin: 15px 0;
@@ -350,8 +356,7 @@ article.projet-article .bas {
   justify-content: center;
   border-radius: 15px;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 article.projet-article .bas h3 {
@@ -366,31 +371,8 @@ article.projet-article .bas h3 {
 article.projet-article .bas .description {
   width: 100%;
   display: flex;
-  margin: 15px 15px;
-}
-
-article.projet-article .bas .droite {
-  width: 100%;
-  display: flex;
-  margin: 15px 15px;
-}
-
-article.projet-article .bas .droite p {
-  width: 100%;
-  display: flex;
-  margin: 15px 15px;
-}
-
-article.projet-article .bas .gauche {
-  width: 35%;
-  display: flex;
-  margin-right: 10px;
-}
-article.projet-article .bas .gauche img {
-  width: 50%;
-  height: 50%;
-  border-radius: 15px;
-  margin-left: 10px;
+  margin: auto;
+  padding: 15px;
 }
 
 

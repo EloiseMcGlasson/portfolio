@@ -9,43 +9,23 @@ const ProjetComp = () => {
     return (
         <>
             <article className="projet-article" key={Projets[state].id}>
+                <div>
                 <div className="haut">
                     <img src={Projets[state].imagePres.src} alt={Projets[state].imagePres.alt} />
 
                 </div>
                 <div className="bas">
                     <h3>{Projets[state].title}</h3>
+                    
                     <p className="description">{Projets[state].description}</p>
-
-                    <div className="droite">
-
-                        {Projets[state].paragraphe.map((paragraphe) => {
-                            return (
-                                <p>
-                                    {paragraphe}
-                                </p>)
-
-                        })}
-                    </div>
-                    <div className="gauche">
-                        {Projets[state].image.map((image) => {
-
-                            return (
-
-                                <p>
-
-                                    <img src={image.src} alt={image.alt} />
-                                </p>)
-
-                        })}
-                    </div>
-
-
-                </div>
                 <div>
-                    <Link to={Projets[state].lien} target="_blank"><GithubOutlined /></Link>
+                <Link to={Projets[state].lien} target="_blank"><GithubOutlined /></Link>
                 </div>
+                </div>
+            </div>
+                <div className="aside">
             <AsideComp />
+            </div>
             </article>
 
         </>

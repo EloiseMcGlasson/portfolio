@@ -1,23 +1,3 @@
-/* export const projects = [
-  {
-    id: 1,
-    image:
-      "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas-1128x635.jpg",
-    title: "Developpement d'une application web avec Laravel et React Js",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
-  },
-  {
-    id: 2,
-    image:
-      "https://www.wisembly.com/assets/wizuploads/2022/12/page-event-en-800x704.webp",
-    title: "Developpement d'un site web d'evenements",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
-  },
-
-]; */
-
 export const experience = [
   {
     id: 1,
@@ -42,31 +22,36 @@ export const experience = [
 export const educations = [
   {
     id:1,
+    title: "RNCP niveau 6 Conceptrice développeuse d'applications",
+    name: "Ada Tech School, Nantes (en cours)",
+  },
+  {
+    id:2,
     title: "POEI Administratrice réseaux Linux",
     name: "M2i Formation pour Ausy, Rennes (2022)",
   },
   {
-    id:2,
+    id:3,
     title: "TOEIC L&R 915",
     name: "IUT Vannes (2018-2019)",
   },
   {
-    id:3,
+    id:4,
     title: "Licence professionnelle Systèmes d'information : intégration et maintenance applicative (S2IMA)",
     name: "IUT Vannes (2018-2019)",
   },
   {
-    id:4,
+    id:5,
     title: "BTS Services Informatiques aux Organisations option SLAM",
     name: "GRETA de Bretagne Sud, antenne de Vannes (2017-2018)",
   },
   {
-    id:5,
+    id:6,
     title: "Bac Professionnel Secrétariat (mention bien)",
     name: "GRETA de Digne les Bains (2004-2005)",
   },
   {
-    id:6,
+    id:7,
     title: "BEP Métiers du Secrétariat",
     name: "GRETA de Digne les Bains (2001-2002)",
   },
