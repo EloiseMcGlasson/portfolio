@@ -1,5 +1,5 @@
 import React from "react";
-import chat from "../assets/images/cat.png"
+import chat from "../assets/images/panneau.jpeg"
 
 import { Button, Divider } from "antd";
 import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
@@ -34,9 +34,12 @@ Au travers de projets comme la refonte en cours du site Radio Zinzine et la cré
                                     <h3>
                                         Projet en cours
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ut quasi alias eligendi maiores omnis voluptates cum nulla inventore doloremque deleniti nobis temporibus, nisi ab accusantium quos doloribus, sed nam.
-                                        Quam molestiae culpa sapiente, modi sunt exercitationem! Perspiciatis facilis excepturi, odio mollitia laboriosam nulla quisquam ad, explicabo eaque sit totam ipsum architecto aperiam quia sunt cupiditate suscipit assumenda autem ut.
-                                        Illo incidunt ab repudiandae ea, consequatur minus porro nobis iusto voluptate doloremque ipsa placeat officia, asperiores sint. Magnam provident at sed reprehenderit corrupti ex, officiis nobis illo. Quod, dolore aspernatur!</p>
+                                    <h4>Site de Radio Zinzine</h4>
+                                    <p>Le projet Radio Zinzine consiste en la refonte complète du site internet de cette radio associative, avec pour objectif de moderniser l’interface et d’améliorer l’expérience utilisateur. Radio Zinzine, riche d'une histoire engagée, diffuse des contenus alternatifs, et cette refonte vise à offrir un accès plus fluide et moderne à ses auditeurs.
+
+En tant que développeuse solo sur ce projet, j’assure la migration et la restructuration du site en utilisant Symfony 7 pour le back-end et Twig pour le rendu des templates. Ce développement inclut également la création d’une API REST pour faciliter la gestion des données de la radio. Je travaille à transformer le site actuel, en PHP 5 avec une couche JavaScript/Ajax, vers cette nouvelle architecture plus performante et maintenable.
+
+Ce projet me permet de travailler de manière autonome tout en renforçant mes compétences en Symfony et Twig, du développement back-end à la gestion de projet, et d’apporter une contribution significative à une initiative culturelle et indépendante.</p>
                                     <div className="btn-link">
                                         <Button className="btn" icon={<LikeOutlined />}>Soutenir mon projet</Button>
                                     </div>
