@@ -1,5 +1,4 @@
 
-import "./App.css";
 import BodyComp from "./components/BodyComp";
 import HeaderComp from "./components/HeaderComp";
 import FooterComp from "./components/FooterComp";

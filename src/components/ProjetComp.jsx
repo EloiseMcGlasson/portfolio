@@ -2,6 +2,7 @@ import { Projets } from "../data/projects";
 import { useParams, Link } from "react-router-dom";
 import { GithubOutlined } from "@ant-design/icons";
 import AsideComp from "./AsideComp";
+import NotFoundComp from "./NotFoundComp";
 
 const ProjetComp = () => {
     const { projetId } = useParams();
@@ -9,7 +10,7 @@ const ProjetComp = () => {
     const projet = Projets.find((item) => item.id === projetId);
 
     if (!projet) {
-        return <p>Projet introuvable.</p>;
+        return <NotFoundComp />;
     }
 
     return (
