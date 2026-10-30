@@ -1,49 +1,65 @@
+/* ==========================================================
+   01. IMPORTS ET STYLES GLOBAUX
+   ========================================================== */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&family=Mukta:wght@200;300;400;500;600&display=swap");
 
+/* Réinitialisation et typographie */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "Montserrat", sans-serif;
 }
 
-/* main */
-.main {
-  width: 100%;
-  background-color: #0f0f0f;
-  min-height: 100vh;
-}
-
+/* Liens */
 a {
   color: #911ec7;
 }
 
-/* Header */
+/* Contenu principal */
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+}
+
+
+/* ==========================================================
+   02. HEADER
+   ========================================================== */
+
+/* Structure générale */
 header {
   width: 100%;
-  background-color: #282828;
+  height: 300px;
+  padding: 0 25px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 25px;
-  height: 300px;
+
+  background-color: #282828;
 }
 
+/* Identité et informations */
 header .left {
   display: flex;
   align-items: center;
-  color: #ffff;
+  color: #ffffff;
 }
 
+/* Photo de profil */
 header .left img {
   width: 150px;
   height: 150px;
+  margin-right: 20px;
+
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 20px;
 }
 
+/* Réseaux sociaux */
 header .left .contacts {
   display: flex;
   align-items: center;
@@ -53,6 +69,7 @@ header .left .contacts {
 header .left .contacts .contact-item {
   margin-right: 10px;
   padding: 10px;
+
   background-color: #3a3939;
   border-radius: 50%;
   cursor: pointer;
@@ -62,75 +79,100 @@ header .left .contacts .contact-item:hover {
   background-color: #535353;
 }
 
+/* Bouton de contact */
 header .right .contact-btn {
   background-color: #911ec7;
-  color: #ffff;
+  color: #ffffff;
   font-size: 16px;
   border: none;
-
 }
 
-/* BODY */
-/* Body left */
+
+/* ==========================================================
+   03. PAGE D'ACCUEIL
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   3.1 Structure générale
+   ---------------------------------------------------------- */
 
 .main .body-container {
   width: 100%;
   padding: 70px 100px;
-  display: flex;
 
+  display: flex;
 }
 
 .main .body-container .left {
   width: 70%;
 }
 
+/* Sections de la colonne principale */
 .main .body-container .left section {
-  background-color: #282828;
-  padding: 15px;
-  border-radius: 15px;
   margin-bottom: 20px;
-  color: #ffff;
+  padding: 15px;
+
+  background-color: #282828;
+  border-radius: 15px;
+  color: #ffffff;
 }
 
 .main .body-container .left section h2 {
   margin-bottom: 15px;
 }
 
-/* section projet */
+
+/* ----------------------------------------------------------
+   3.2 Projets
+   ---------------------------------------------------------- */
+
+/* Articles de la section projets */
 .main .body-container .left section.projects article {
   width: 100%;
 }
 
+/* Image du projet principal */
 .main .body-container .left section.projects article .featureImg {
   width: 100%;
   height: 500px;
+
   object-fit: cover;
   border-radius: 15px;
 }
 
+/* Titres des projets */
 .main .body-container .left section.projects article h3 {
   margin: 15px 0;
 }
 
+/* Conteneur du bouton du projet principal */
 .main .body-container .left section.projects article .btn-link {
   width: 100%;
+  margin-top: 15px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
 }
 
+/* Bouton */
 .main .body-container .left section.projects article .btn-link .btn {
   background-color: #911ec7;
   color: #ffffff;
 }
 
-/* articles item */
+
+/* ----------------------------------------------------------
+   3.3 Liste des autres projets
+   ---------------------------------------------------------- */
+
+/* Article individuel */
 .main .body-container .left section.projects article.article-item {
   display: flex;
   margin: 10px 0;
 }
 
+/* Colonne image */
 .main .body-container .left section.projects article.article-item .left {
   width: 35%;
   margin-right: 10px;
@@ -142,34 +184,53 @@ header .right .contact-btn {
   border-radius: 15px;
 }
 
+/* Colonne description */
 .main .body-container .left section.projects article.article-item .right {
   width: 65%;
 }
 
-/* section experience */
+
+/* ----------------------------------------------------------
+   3.4 Expériences professionnelles
+   ---------------------------------------------------------- */
+
 .main .body-container .left section.experiences article {
   margin: 10px 0;
 }
 
-/* ASIDE */
+
+/* ==========================================================
+   04. BARRE LATÉRALE (ASIDE)
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   4.1 Structure générale
+   ---------------------------------------------------------- */
+
 aside {
   width: 29%;
   margin-left: 10px;
   color: #ffffff;
 }
 
-/* aside contacts */
+/* Blocs de la barre latérale */
 aside .section {
   width: 100%;
-  background-color: #282828;
-  padding: 15px;
-  border-radius: 15px;
   margin-bottom: 15px;
+  padding: 15px;
+
+  background-color: #282828;
+  border-radius: 15px;
 }
 
 aside .section h2 {
   margin-bottom: 10px;
 }
+
+
+/* ----------------------------------------------------------
+   4.2 Contacts
+   ---------------------------------------------------------- */
 
 aside .contacts .contact-item {
   margin: 15px 0;
@@ -183,25 +244,35 @@ aside .contacts .contact-item span {
   margin-left: 10px;
 }
 
+
+/* ----------------------------------------------------------
+   4.3 Compétences techniques
+   ---------------------------------------------------------- */
+
 aside .skills .skills-list {
   margin-top: 15px;
-
 }
 
-/* barre de % */
+aside .skills .skills-list .skill-item {
+  margin: 15px 0;
+}
+
+/* Fond des barres de compétences */
 aside .section .full {
   width: 100%;
-  background-color: #ffffff;
   height: 15px;
+
+  background-color: #ffffff;
   border-radius: 7px;
 }
 
+/* Partie colorée des barres */
 aside .section .full .percent {
-
   height: 100%;
   background-color: #911ec7;
 }
 
+/* Niveaux visuels actuels */
 aside .section .full .first {
   width: 70%;
 }
@@ -214,69 +285,204 @@ aside .section .full .third {
   width: 60%;
 }
 
-aside .skills .skills-list .skill-item {
-  margin: 15px 0;
 
-}
-
-/* education */
+/* ----------------------------------------------------------
+   4.4 Formation
+   ---------------------------------------------------------- */
 
 aside .education-item {
   margin: 15px 0;
 }
 
-/* languages */
+
+/* ----------------------------------------------------------
+   4.5 Langues
+   ---------------------------------------------------------- */
 
 aside .language-item {
   margin: 10px 0;
 }
 
-aside .section .full .french {
-  width: 95%;
-}
 
-aside .section .full .english {
-  width: 80%;
-}
+/* ==========================================================
+   05. PAGE DE DÉTAIL D'UN PROJET
+   ========================================================== */
 
-aside .aside {
+/* Structure principale */
+article.projet-article {
   width: 100%;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: #000000;
+  color: #ffffff;
 }
 
-/* footer */
+/* ----------------------------------------------------------
+   5.1 Présentation visuelle du projet
+   ---------------------------------------------------------- */
 
-footer {
-  height: 50px;
+article.projet-article .haut {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: #282828;
-  color: #ffffff;
+  border-radius: 15px;
+}
+
+/* Image principale */
+article.projet-article .haut img {
+  display: block;
+  width: 90%;
+  height: 700px;
+  margin: auto;
+  padding: 15px;
+
+  border-radius: 15px;
+}
+
+
+/* ----------------------------------------------------------
+   5.2 Informations du projet
+   ---------------------------------------------------------- */
+
+article.projet-article .bas {
+  width: 100%;
+  margin: 15px 0;
+
+  background-color: #282828;
+  border-radius: 15px;
+}
+
+/* Titre du projet */
+article.projet-article .bas h2 {
+  width: 100%;
+  margin: 15px 0;
+  padding-top: 15px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Media queries for responsive website*/
-
-@media (max-width: 645px) {
-  .main header {
-    flex-direction: column;
-    padding: 25px 0;
-    height: 400px;
-
-  }
-
-  .main header .left {
-    flex-direction: column;
-    text-align: center;
-
-  }
-
-  .main header .left .contacts {
-    justify-content: center;
-  }
+/* Description */
+article.projet-article .bas .description {
+  width: 100%;
+  margin: auto;
+  padding: 15px;
 }
+
+
+/* ==========================================================
+   06. PAGE 404
+   ========================================================== */
+
+/* Conteneur principal */
+.not-found {
+  min-height: calc(100vh - 350px);
+  padding: 50px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #0f0f0f;
+}
+
+/* Carte du message d'erreur */
+.not-found-card {
+  width: 100%;
+  max-width: 650px;
+  padding: 50px 35px;
+
+  background-color: #282828;
+  border-radius: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Code d'erreur */
+.not-found-code {
+  display: block;
+  margin-bottom: 20px;
+
+  font-size: clamp(80px, 15vw, 140px);
+  font-weight: 600;
+  line-height: 1;
+  color: #911ec7;
+}
+
+/* Titre */
+.not-found-card h1 {
+  margin-bottom: 20px;
+  font-size: clamp(22px, 4vw, 30px);
+}
+
+/* Message */
+.not-found-card p {
+  margin-bottom: 35px;
+
+  font-size: 16px;
+  line-height: 1.7;
+  color: #dddddd;
+}
+
+/* Lien de retour */
+.not-found-link {
+  display: inline-block;
+  padding: 14px 25px;
+
+  background-color: #911ec7;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+
+  transition: background-color 0.2s ease;
+}
+
+.not-found-link:hover {
+  background-color: #ad35e4;
+}
+
+/* Navigation au clavier */
+.not-found-link:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+
+
+/* ==========================================================
+   07. FOOTER
+   ========================================================== */
+
+footer {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #282828;
+  color: #ffffff;
+}
+
+
+/* ==========================================================
+   08. RESPONSIVE
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   8.1 Tablettes et écrans intermédiaires
+       Largeur maximale : 945px
+   ---------------------------------------------------------- */
 
 @media (max-width: 945px) {
 
+  /* Passage de deux colonnes à une colonne */
   .main .body-container {
     flex-direction: column;
     padding: 50px 30px;
@@ -286,189 +492,100 @@ footer {
     width: 100%;
   }
 
+  /* Barre latérale sous le contenu */
   aside {
     width: 100%;
+    margin-left: 0;
+  }
+
+  /* Page de détail : affichage vertical */
+  article.projet-article {
+    flex-direction: column;
+  }
+
+  /* Image du projet adaptée à la largeur */
+  article.projet-article .haut img {
+    max-width: 100%;
+    height: auto;
   }
 
 }
 
+
+/* ----------------------------------------------------------
+   8.2 Petites tablettes
+       Largeur maximale : 770px
+   ---------------------------------------------------------- */
+
 @media (max-width: 770px) {
 
-  .main .body-container .left section.projects .article-item {
-
+  /* Articles de projets empilés verticalement */
+  .main .body-container .left section.projects article.article-item {
     flex-direction: column;
   }
 
   .main .body-container .left section.projects article.article-item .left {
-
     width: 100%;
-
+    margin-right: 0;
   }
 
   .main .body-container .left section.projects article.article-item .right {
-
     width: 100%;
   }
 
 }
 
-/* Page PROJET */
 
-
-
-article.projet-article {
-  width: 100%;
-  background-color: black;
-  padding: 15px;
-  color: #ffff;
-  display: flex;
-  flex-direction: row;
-}
-
-article.projet-article .haut {
-  border-radius: 15px;
-  background-color: #282828;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-article.projet-article .haut img {
-  border-radius: 15px;
-  display: flex;
- margin: auto;
-  width: 90%;
-  height: 700px;
-  padding: 15px;
-  
-}
-
-article.projet-article .bas {
-  width: 100%;
-  background-color: #282828;
-  display: block;
-  margin: 15px 0;
-  align-items: center;
-  justify-content: center;
-  border-radius: 15px;
-  flex-direction: column;
-
-}
-
-article.projet-article .bas h3 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 15px 0;
-  padding-top: 15px;
-}
-
-article.projet-article .bas .description {
-  width: 100%;
-  display: flex;
-  margin: auto;
-  padding: 15px;
-}
-
-/* Page 404 */
-
-.not-found {
-  min-height: calc(100vh - 350px);
-  background-color: #0f0f0f;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px 20px;
-}
-
-.not-found-card {
-  width: 100%;
-  max-width: 650px;
-  padding: 50px 35px;
-  background-color: #282828;
-  border-radius: 15px;
-  color: #ffffff;
-  text-align: center;
-}
-
-.not-found-code {
-  display: block;
-  font-size: clamp(80px, 15vw, 140px);
-  font-weight: 600;
-  line-height: 1;
-  color: #911ec7;
-  margin-bottom: 20px;
-}
-
-.not-found-card h1 {
-  font-size: clamp(22px, 4vw, 30px);
-  margin-bottom: 20px;
-}
-
-.not-found-card p {
-  font-size: 16px;
-  line-height: 1.7;
-  margin-bottom: 35px;
-  color: #dddddd;
-}
-
-.not-found-link {
-  display: inline-block;
-  background-color: #911ec7;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 14px 25px;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background-color 0.2s ease;
-}
-
-.not-found-link:hover {
-  background-color: #ad35e4;
-}
-
-.not-found-link:focus-visible {
-  outline: 3px solid #ffffff;
-  outline-offset: 4px;
-}
+/* ----------------------------------------------------------
+   8.3 Mobiles
+       Largeur maximale : 645px
+   ---------------------------------------------------------- */
 
 @media (max-width: 645px) {
-  .not-found-card {
-    padding: 40px 20px;
-  }
-}
 
-
-/* media queries pour projet */
-@media (max-width: 645px) {
+  /* Header : photo et informations empilées */
   header {
     flex-direction: column;
     padding: 25px 0;
-    height: 400px;
-
+    height: auto;
+    gap: 20px;
   }
 
   header .left {
     flex-direction: column;
     text-align: center;
-
   }
 
+  /* Photo de profil centrée */
+  header .left img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /* Réseaux sociaux centrés */
   header .left .contacts {
     justify-content: center;
   }
+
+  /* Espacement du contenu principal */
+  .main .body-container {
+    padding: 30px 15px;
+  }
+
+  /* Image du projet principal */
+  .main .body-container .left section.projects article .featureImg {
+    height: auto;
+  }
+
+  /* Image des pages de détail */
   article.projet-article .haut img {
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    height: 100%;
-    
+    height: auto;
+  }
+
+  /* Carte 404 */
+  .not-found-card {
+    padding: 40px 20px;
   }
 
 }
