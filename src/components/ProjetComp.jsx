@@ -1,5 +1,5 @@
 import { Projets } from "../data/projects";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { GithubOutlined } from "@ant-design/icons";
 import AsideComp from "./AsideComp";
 import NotFoundComp from "./NotFoundComp";
@@ -20,12 +20,17 @@ const ProjetComp = () => {
                     <img src={projet.imagePres.src} alt={projet.imagePres.alt} />
                 </div>
                 <div className="bas">
-                    <h3>{projet.title}</h3>
+                    <h2>{projet.title}</h2>
                     <p className="description">{projet.description}</p>
                     <div>
-                        <Link to={projet.lien} target="_blank" rel="noopener noreferrer">
-                            <GithubOutlined />
-                        </Link>
+                        <a
+                            href={projet.lien}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`Voir le projet ${projet.title} sur GitHub (nouvel onglet)`}
+                        >
+                            <GithubOutlined aria-hidden="true" />
+                        </a>
                     </div>
                 </div>
             </div>
