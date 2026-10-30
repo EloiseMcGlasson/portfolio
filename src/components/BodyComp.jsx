@@ -40,7 +40,15 @@ const BodyComp = () => {
 
                                     Ce projet me permet de travailler de manière autonome tout en renforçant mes compétences en Symfony et Twig, du développement back-end à la gestion de projet, et d’apporter une contribution significative à une initiative culturelle et indépendante.</p>
                                 <div className="btn-link">
-                                    <Button className="btn" icon={<LikeOutlined />}>Soutenir mon projet</Button>
+                                    <Button
+                                        className="btn"
+                                        icon={<LikeOutlined />}
+                                        href="https://www.linkedin.com/in/elo%C3%AFse-mcglasson-866321172/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Me recommander sur LinkedIn
+                                    </Button>
                                 </div>
                             </div>
                         </article>
