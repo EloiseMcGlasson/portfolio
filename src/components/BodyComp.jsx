@@ -2,7 +2,7 @@ import React from "react";
 import chat from "../assets/images/panneau.jpeg"
 
 import { Button, Divider } from "antd";
-import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
+import { LikeOutlined } from "@ant-design/icons";
 import { experience} from "../data/data";
 import { Projets } from "../data/projects";
 import AsideComp from "./AsideComp";
@@ -61,7 +61,7 @@ Ce projet me permet de travailler de manière autonome tout en renforçant mes c
                                                 {item.description[0]}
                                             </p>
                                             
-                                            <Link to={url} icon={<LinkOutlined />} state={item.id}>En savoir plus</Link>
+                                            <Link to={url}>En savoir plus</Link>
                                         </div>
                                     </article>
                                     )

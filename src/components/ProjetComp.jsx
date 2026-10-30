@@ -1,34 +1,37 @@
 import React from "react";
 import { Projets } from "../data/projects";
-import { useLocation, Link } from "react-router-dom";
-import { GithubOutlined } from "@ant-design/icons"
+import { useParams, Link } from "react-router-dom";
+import { GithubOutlined } from "@ant-design/icons";
 import AsideComp from "./AsideComp";
+
 const ProjetComp = () => {
-    const { state } = useLocation();
+    const { projetId } = useParams();
+
+    const projet = Projets.find((item) => item.id === projetId);
+
+    if (!projet) {
+        return <p>Projet introuvable.</p>;
+    }
 
     return (
-        <>
-            <article className="projet-article" key={Projets[state].id}>
-                <div>
+        <article className="projet-article">
+            <div>
                 <div className="haut">
-                    <img src={Projets[state].imagePres.src} alt={Projets[state].imagePres.alt} />
-
+                    <img src={projet.imagePres.src} alt={projet.imagePres.alt} />
                 </div>
                 <div className="bas">
-                    <h3>{Projets[state].title}</h3>
-                    
-                    <p className="description">{Projets[state].description}</p>
-                <div>
-                <Link to={Projets[state].lien} target="_blank"><GithubOutlined /></Link>
-                </div>
+                    <h3>{projet.title}</h3>
+                    <p className="description">{projet.description}</p>
+                    <div>
+                        <Link to={projet.lien} target="_blank" rel="noopener noreferrer">
+                            <GithubOutlined />
+                        </Link>
+                    </div>
                 </div>
             </div>
-                
             <AsideComp />
-            
-            </article>
+        </article>
+    );
+};
 
-        </>
-    )
-}
-export default ProjetComp
+export default ProjetComp;
