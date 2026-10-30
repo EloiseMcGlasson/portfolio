@@ -1,4 +1,3 @@
-import React from "react";
 import { Projets } from "../data/projects";
 import { useParams, Link } from "react-router-dom";
 import { GithubOutlined } from "@ant-design/icons";

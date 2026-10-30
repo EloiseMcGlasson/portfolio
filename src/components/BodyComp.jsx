@@ -1,4 +1,3 @@
-import React from "react";
 import chat from "../assets/images/panneau.jpeg"
 
 import { Button, Divider } from "antd";
@@ -23,7 +22,7 @@ const BodyComp = () => {
                                 <h2>À propos de moi</h2>
                                 <p>Développeuse web en formation, je suis actuellement en reconversion professionnelle et étudie à Ada Tech School pour devenir conceptrice développeuse d’applications. Passionnée par le développement back-end et motivée par la création de solutions durables et fonctionnelles, j’ai acquis de solides bases en PHP, JavaScript, ReactJS et SQL.
 
-Au travers de projets comme la refonte en cours du site Radio Zinzine et la création d'une API REST pour cette radio, j’ai renforcé mes compétences en développement agile et mon intérêt pour la qualité et l'optimisation du code. Curieuse, persévérante et dotée d’un bon esprit d’équipe, je recherche une alternance de 12 mois pour contribuer activement aux projets d'une entreprise innovante et stimulante.</p>
+Au travers de projets comme la refonte en cours du site Radio Zinzine et la création d&apos;une API REST pour cette radio, j’ai renforcé mes compétences en développement agile et mon intérêt pour la qualité et l&apos;optimisation du code. Curieuse, persévérante et dotée d’un bon esprit d’équipe, je recherche une alternance de 12 mois pour contribuer activement aux projets d&apos;une entreprise innovante et stimulante.</p>
                             </article>
                         </section>
                         <section className="projects">
@@ -35,7 +34,7 @@ Au travers de projets comme la refonte en cours du site Radio Zinzine et la cré
                                         Projet en cours
                                     </h3>
                                     <h4>Site de Radio Zinzine</h4>
-                                    <p>Le projet Radio Zinzine consiste en la refonte complète du site internet de cette radio associative, avec pour objectif de moderniser l’interface et d’améliorer l’expérience utilisateur. Radio Zinzine, riche d'une histoire engagée, diffuse des contenus alternatifs, et cette refonte vise à offrir un accès plus fluide et moderne à ses auditeurs.
+                                    <p>Le projet Radio Zinzine consiste en la refonte complète du site internet de cette radio associative, avec pour objectif de moderniser l’interface et d’améliorer l’expérience utilisateur. Radio Zinzine, riche d&apos;une histoire engagée, diffuse des contenus alternatifs, et cette refonte vise à offrir un accès plus fluide et moderne à ses auditeurs.
 
 En tant que développeuse solo sur ce projet, j’assure la migration et la restructuration du site en utilisant Symfony 7 pour le back-end et Twig pour le rendu des templates. Ce développement inclut également la création d’une API REST pour faciliter la gestion des données de la radio. Je travaille à transformer le site actuel, en PHP 5 avec une couche JavaScript/Ajax, vers cette nouvelle architecture plus performante et maintenable.
 

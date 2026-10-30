@@ -1,4 +1,3 @@
-import React from "react";
 import { EnvironmentOutlined, LinkOutlined, MailOutlined } from "@ant-design/icons";
 import { educations } from "../data/data";
 import { Link } from "react-router-dom";
@@ -24,7 +23,7 @@ const AsideComp = () => {
                 <div className="skills section">
                     <h2>Compétences</h2>
                     <p>
-                        Même si mes compétences sont académiques, ma capacité d'adaptation et mon appétence à apprendre.
+                        Même si mes compétences sont académiques, ma capacité d&apos;adaptation et mon appétence à apprendre.
                     </p>
                     <div className="skills-list">
                         <div className="skill-item">

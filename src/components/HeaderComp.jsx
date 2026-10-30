@@ -1,4 +1,3 @@
-import React from "react";
 import avatar from "../assets/images/moi.jpg"
 import { LinkedinOutlined, GithubOutlined, MessageOutlined } from "@ant-design/icons"
 import { Button } from "antd";
@@ -12,7 +11,7 @@ const HeaderComp = () => {
                 <img src={avatar} alt="user" />{/* </Link> */}
                 <div className="user-infos">
                     <h1>Éloïse McGlasson</h1>
-                    <h2>Développeuse D'application Web</h2>
+                    <h2>Développeuse D&apos;application Web</h2>
                     <div className="contacts">
                         <div className="contact-item">
                             <Link to="https://www.linkedin.com/in/elo%C3%AFse-mcglasson-866321172/" target="_blank" ><LinkedinOutlined /></Link>
